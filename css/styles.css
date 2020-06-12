@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #204051;
+  height: 100%;
+}
+
+hr {
+  background-color: #84a9ac;
+  height: 6px;
+  border: 0;
+  border-style: solid;
+  width: 35%;
+  border-radius: 10px
+}
+
+h1 {
+  margin: 100px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem;
+  z-index: 2;
+  color: #e7dfd5;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #e7dfd5;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #3b6978;
+  font-size: 1.8rem;
+}
+
+div {
+  margin: 0;
+  background-color: #e7dfd5;
+  height: 100%;
+}
+
+a {
+  color: #3b6978;
+}
+
+/***************class****************/
+.top {
+  background-color: #84a9ac;
+  position: relative;
+  padding-top: 100px;
+  height: 100%;
+    z-index: -1;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.mountain {
+  z-index: 1;
+  width: 500px;
+  text-align: center;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 10%;
+  top: 400px;
+  z-index: 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 10%;
+  top: 90px;
+  z-index: 0;
+}
+
+.mike-profile {
+  border-radius: 50%;
+  height: 200px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.skill-row p {
+  line-height: 2
+}
+
+.skill-computer {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+.skill-chilly {
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+}
+
+
+
+.navbar {
+  top: 0;
+  width: 100%;
+  height: auto;
+
+  background-color: #84a9ac;
+  position: fixed;
+  text-align: center;
+}
+
+.navbar h3 {
+  background-color: #84a9ac;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.intro-text {
+
+  background-color: #84a9ac;
+    z-index: 2;
+}
+
+.footer {
+  background-color: #84a9ac;
+  font-color: #e7dfd5;
+}
